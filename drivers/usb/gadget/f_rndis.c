@@ -915,6 +915,8 @@ int rndis_function_bind_config(struct usb_configuration *c)
 	return ret;
 }
 
+//@AUTHOR SLADE87
+//WE NEED TO FIX THIS FOR USB TETHERING 
 /*static struct android_usb_function rndis_function = {
 	.name = "rndis",
 	.bind_config = rndis_function_bind_config,
